@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: edu.javacourse.Test1
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.054 s <<< FAILURE! - in edu.javacourse.Test1
+test1(edu.javacourse.Test1)  Time elapsed: 0.01 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<15[0].0> but was:<15[1].0>
+	at edu.javacourse.Test1.test1(Test1.java:16)
+
