@@ -30,6 +30,7 @@ public class GUI extends Components {
 		// создание формы
 		mainPanel = CreateMainPanel();
 		// конфигурирование параметров панели
+		mainPanel.setBackground(Color.red);
 		mainFrame = CreateMainFrame("Расход топлива", mainPanel, 400, 200);
 		// создание кнопки
 		confirm = CreateButton("Вычислить", 250, 130, 120, 25);
