@@ -31,7 +31,7 @@ public class GUI extends Components {
 		// конфигурирование параметров панели
 		mainFrame = CreateMainFrame("Расход топлива", mainPanel, 400, 200);
 		// создание кнопки
-		confirm = CreateButton("Рассчитать", 250, 130, 120, 25);
+		confirm = CreateButton("Вычислить", 250, 130, 120, 25);
 		// циклы для создания интерфейса панели
 		for (int i = 0; i < 7; i++) {
 			label[i] = CreateLabel(labelNames[i], labelBounds[i * 4], labelBounds[i * 4 + 1], labelBounds[i * 4 + 2],
