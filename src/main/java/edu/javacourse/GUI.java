@@ -30,7 +30,7 @@ public class GUI extends Components {
 		// создание формы
 		mainPanel = CreateMainPanel();
 		// конфигурирование параметров панели
-		mainFrame = CreateMainFrame("Расход топлива", mainPanel, 400, 200);
+		mainFrame = CreateMainFrame("Расход топлива", mainPanel, 600, 400);
 		// создание кнопки
 		confirm = CreateButton("Рассчитать", 250, 130, 120, 25);
 		// циклы для создания интерфейса панели
