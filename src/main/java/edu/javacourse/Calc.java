@@ -12,7 +12,7 @@ public class Calc {
 	
 	// инициализация переменных
 	Calc(double way, double average, double price) {
-		this.fuel = average / 10 * way;
+		this.fuel = average / 100 * way;
 		this.cost = fuel * price;
 	}
 	
